@@ -1,6 +1,4 @@
 
-##
-1. Ethical Considerations
 
 ## Ethical Considerations: Bias in MNIST and Amazon Reviews Models
 
@@ -34,9 +32,9 @@
 ### 3. Example Actions
 
 - **For MNIST**: Use Fairness Indicators to compare digit classification accuracy for different age groups or writing styles (if metadata available).
-- **For Amazon Reviews**: Use spaCy rules to add sentiment expressions from underrepresented groups; use Fairness Indicators to check sentiment classification by region or reviewer background.
+- **For Amazon Reviews**: Use spaCy rules to add sentiment expressions from underrepresented groups, and utilize Fairness Indicators to assess sentiment classification by region or reviewer background.
 
 ---
 
 **Summary:**  
-Bias can be introduced via unbalanced datasets or simplistic rules. TensorFlow Fairness Indicators can surface these issues quantitatively, while spaCy’s rule-based systems allow targeted fixes. Both are essential for building fair, robust AI models.
+Bias can be introduced via unbalanced datasets or simplistic rules. TensorFlow Fairness Indicators can quantify these issues, while spaCy’s rule-based systems enable targeted fixes. Both are essential for building fair, robust AI models.
